@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+    <script src="listagem_exclusao.js"></script>
+</head>
+
+<body>
+    <div></div>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Cadastro do Cliente</legend>
+                <div>
+                    <label>Nome</label><br>
+                    <input type="text" name="Nome" id="nome"><br>
+                    <label>E-mail</label><br>
+                    <input type="email" name="Email" id="email"><br>
+                    <label>Cpf ou Cnpj</label><br>
+                    <input type="text" name="Cpf" id="cpf"><br>
+                    <label>Telefone</label><br>
+                    <input type="text" name="Telefone" id="telefone"><br>
+                    <label>CEP</label><br>
+                    <input type="text" name="Cep" id="cep"><br><br>
+                    <label>Rua</label>
+                    <input  type="text" name="Rua" id="rua">
+                    <label>Numero</label>
+                    <input type="text" name="Numero" id="numero">
+                    <label>Bairro</label>
+                    <input type="text" name="Bairro" id="bairro"><br><br>
+                    <label>Cidade</label>
+                    <input type="text" name="Cidade" id="cidade">
+                    <label>Estado</label>
+                    <input type="text" name="Estado" id="estado">
+                    <button onclick="listar()">Listar</button>
+
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <hr>
+    <div id="wd"></div>
+</body>
+
+</html>
